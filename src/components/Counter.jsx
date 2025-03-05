@@ -4,6 +4,7 @@ function Counter() {
   
 
     const [count, setCount] = useState(0)
+    const [error,setError]  = useState(false)
 
     const handleClick = ()=>{
           setCount(count+1)
